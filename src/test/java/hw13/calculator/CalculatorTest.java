@@ -48,7 +48,7 @@ public class CalculatorTest {
         assertEquals(expected,actual);
     }
     @Test
-    public void divideExceptionTest(){
+    public void divideIllegalArgumentExceptionTest(){
         num2=0;
         double expected = calculatorService.divide(num1,num2);
         double actual = (double) num1 /num2;
